@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.head-1{
+    background-color: #867070;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+}
+.head-1 .logo {
+    height: 45px;
+    width: 100px;
+}
+.head-1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head-1 ul {
+    display: flex;
+    gap: 15px;
+}
+
+.head-1 ul li {
+    list-style: none;
+}
+
+.head-1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+.main-1 {
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 1550px;
+height: 200px;
+background-color: #CE5959;
+margin: 0 auto;
+font-size: 35px;
+font-family: 'Courier New', Courier, monospace;
+gap: 50px;
+}
+.form-2 {
+color: #867070;
+font-size: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+display: flex;
+justify-content: space-around;
+}
+form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #867070;
+    padding: 40px 25px;
+}
+.footer {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
